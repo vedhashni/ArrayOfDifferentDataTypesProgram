@@ -25,19 +25,19 @@ namespace ArrayOfDifferentDataTypesProblem
             switch(option)
             {
                 case 1:
-                    ArrayOfDifferentDataClass.ToPrintIntArray(intarr);
+                    new ArrayOfDifferentDataClass<int>(intarr).ToPrintArray();
                     break;
 
                 case 2:
-                    ArrayOfDifferentDataClass.ToPrintFloatArray(floatarr);
+                    new ArrayOfDifferentDataClass<float>(floatarr).ToPrintArray();
                     break;
 
                 case 3:
-                    ArrayOfDifferentDataClass.ToPrintCharArray(chararr);
+                    new ArrayOfDifferentDataClass<char>(chararr).ToPrintArray();
                     break;
 
                 case 4:
-                    ArrayOfDifferentDataClass.ToPrintStringArray(stringarr);
+                    new ArrayOfDifferentDataClass<String>(stringarr).ToPrintArray();
                     break;
 
                 case 5:
